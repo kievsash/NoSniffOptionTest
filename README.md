@@ -19,3 +19,5 @@ Just comment or uncomment respective line in server.js
 
 and go to http://localhost:4330/
 
+## Demo
+![](nosniff_issue.gif)
