@@ -15,7 +15,7 @@ export class AppComponent implements AfterViewInit {
 
     ngAfterViewInit() {
         const options = {
-            observe: 'body',
+            observe: 'response' as 'body',
             headers: new HttpHeaders({
                 Authorization: 'Bearer AwdasdsadSomeToken',
                 'Content-Type': 'application/json',
